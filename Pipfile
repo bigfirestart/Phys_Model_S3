@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 pygame = "*"
+matplotlib = "*"
+pillow = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
 
 [dev-packages]
 
