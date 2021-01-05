@@ -21,7 +21,7 @@ min_len = min(len(maxs), len(mins))
 maxs = maxs[:min_len]
 mins = mins[:min_len]
 vis_list = []
-i=1
+i=0
 while i < len(mins)-1:
     if maxs[i] > mins[i]:
         prev_max_v = (maxs[i] - mins[i]) / (maxs[i] + mins[i])
