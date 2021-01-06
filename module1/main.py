@@ -22,7 +22,6 @@ T = 1/freq
 max_degree = 180
 degree = 0
 move_sign = +1
-global_diff = 0
 ball_x_0 = window.WIDTH / 2+5
 ball_y_0 = 50+10+stick_len
 

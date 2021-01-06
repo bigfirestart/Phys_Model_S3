@@ -11,7 +11,7 @@ def find_freq(m1: float, m2: float, L: float, R: float) -> float:
     J = (m1 * L * L / 3) + (m2 * R * R / 2) + m2 * (R+L) * (R+L)
     print(f"Момент инерции относительно оси подвеса = {J} кг*м^2")
 
-    freq = (1 / (2 * 9.81 * math.sqrt(J / (P * a))))
+    freq = (1 / (2 * math.pi * math.sqrt(J / (P * a))))
     print(f"Частота  = {freq} Гц")
 
     return freq
