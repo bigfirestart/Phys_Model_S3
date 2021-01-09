@@ -33,7 +33,9 @@ while i < len(mins)-1:
 
 # approximation
 y = vis_list
-x = range(0, len(y))
+x = []
+for i in range(0, len(vis_list)):
+    x.append(i*1200/len(vis_list))
 t = np.polyfit(x, y, 5)
 f = np.poly1d(t)
 
